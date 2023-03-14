@@ -1,0 +1,73 @@
+.page__header {
+  font-size: 1rem;
+  line-height: 1.6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.header__wrapper {
+  padding: calc(12px + 1.5625vw);
+  margin-bottom: 1.25em;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #111112;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.logo:hover {
+  color: #ed171b;
+}
+
+.logo:active {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.logo__image {
+  margin-right: 10px;
+  position: relative;
+  transform: translateY(-4px);
+}
+
+.logo__text {
+  vertical-align: bottom;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.125em;
+  line-height: 1.2;
+}
+
+.navigation {
+  background: linear-gradient(to right, #8793a4, #292d33);
+}
+
+.navigation__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.navigation a {
+  font-family: "Century Gothic", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.8em;
+  display: block;
+}
+
+.navigation a:hover {
+  color: #ed171b;
+}
+
+.navigation a:active {
+  color: #ed171b;
+  text-decoration: underline;
+  text-decoration-color: #ed171b;
+}
