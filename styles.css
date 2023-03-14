@@ -4,7 +4,7 @@
 
 .main__header {
   text-align: center;
-  padding: 3em calc(12px + 1.5625vw);
+  padding: 3em calc(8px + 1.57vw);
 }
 
 .main__title {
@@ -14,72 +14,118 @@
   margin-top: 0;
   margin-bottom: 0.45em;
   word-break: break-word;
-  font-family: "Merriweather", serif;
+  font-family: "Century Gothic", serif;
+}
+
+@media (min-width: 35.937em) {
+  .main__title {
+    font-size: 2.75rem;
+  }
+}
+
+@media (min-width: 47.9375em) {
+  .main__title {
+    font-size: 3rem;
+  }
 }
 
 .main__description {
   margin: 0;
 }
 
-.contacts__wysiwyg ul,
-.contacts__wysiwyg ol {
+.main__description:not(:last-child) {
+  margin-bottom: 0.9em;
+}
+
+.contacts__container {
   margin: 0;
   padding: 0;
+  background-color: #292d33;
+  max-width: 100%;
 }
 
-.contacts__wysiwyg li {
-  list-style: none;
+@media (min-width: 47.9375em) {
+  .contacts__container {
+    display: grid;
+  }
 }
 
-.contacts__wysiwyg img {
-  text-indent: -100vw;
-  display: block;
-  background-color: #ffffff;
-  color: #000000;
-  width: 100%;
-  height: auto;
+@media (min-width: 47.9375em) {
+  .contacts__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.contacts__wysiwyg article {
+@media (min-width: 47.9375em) {
+  .contacts__cell {
+    background-color: #292d33;
+  }
+}
+
+.contacts__photo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.contacts__expert {
   color: #ffffff;
   background-color: #292d33;
   text-align: center;
   font-size: 1rem;
-  padding: 1.875em;
-  height: 250px;
+  min-height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 30px 40px;
 }
 
-.contacts__wysiwyg address {
+.contacts__address {
   font-style: normal;
 }
 
-.contacts__wysiwyg h2,
-.contacts__wysiwyg h3,
-.contacts__wysiwyg h4,
-.contacts__wysiwyg h5 {
+.contacts__title {
   margin-top: 0;
   color: #999999;
-  margin-bottom: 1.6em;
+  margin-bottom: 1.1em;
   line-height: 1.2;
-}
-
-.contacts__wysiwyg h3 {
   font-size: 1.3rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
-.contacts__wysiwyg article span {
+@media (min-width: 57.125em) and (max-width: 61.875em) {
+  .contacts__title {
+    font-size: 1.5rem;
+  }
+}
+
+.contacts p:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__name {
   font-weight: 700;
   margin-bottom: 1em;
   font-size: 1rem;
 }
 
-.contacts__wysiwyg a {
+@media (min-width: 35.937em) and (max-width: 57.125em) {
+  .contacts__name {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 57.125em) and (max-width: 61.875em) {
+  .contacts__name {
+    font-size: 1.3rem;
+  }
+}
+
+.contacts__link {
   color: #ffffff;
   font-style: normal;
 }
