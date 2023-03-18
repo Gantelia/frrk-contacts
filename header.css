@@ -3,20 +3,30 @@
   line-height: 1.6;
 }
 
+@media (min-width: 35.937em) {
+  .page__header {
+    font-size: 1.2rem;
+  }
+}
+
 .header__wrapper {
-  padding: calc(12px + 1.5625vw);
+  padding: calc(10px + 1.6vw);
   margin-bottom: 1.25em;
   display: flex;
 }
 
+@media (min-width: 61.875em) {
+  .header__wrapper {
+    padding-inline: calc((10px + 1.6vw) + 5%);
+  }
+}
+
 .logo {
   display: flex;
-  font-size: 1.125em;
-  line-height: 1.2;
   align-items: center;
   text-decoration: none;
-  color: #3e5a81;
-  font-family: "Merriweather", serif;
+  color: #49556f;
+  font-family: "Century Gothic", sans-serif;
 }
 
 .logo:hover {
@@ -38,10 +48,19 @@
   vertical-align: bottom;
   text-align: center;
   font-weight: 700;
+  font-size: 1.125em;
+  line-height: 1.2;
 }
 
 .navigation {
-  background: linear-gradient(to right, #8793a4, #292d33);
+  padding-inline: calc(8px + 1.57vw);
+  background: linear-gradient(to right, #ffffff, #232a3d);
+}
+
+@media (min-width: 61.875em) {
+  .navigation {
+    padding-inline: calc((10px + 1.6vw) + 5%);
+  }
 }
 
 .navigation__list {
@@ -54,7 +73,7 @@
 }
 
 .navigation a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Century Gothic", sans-serif;
   color: #ffffff;
   text-decoration: none;
   padding: 0.8em;

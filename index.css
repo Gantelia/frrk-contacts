@@ -1,0 +1,133 @@
+.taxes-rate__description {
+  margin-top: 0;
+}
+
+.taxes-rate__description:last-child {
+  margin-bottom: 0;
+}
+
+.taxes-rate__division-list {
+  color: #000000;
+  margin: 0;
+  padding-left: calc((10px + 1.6vw) * 2);
+  padding-right: calc(10px + 1.6vw);
+  list-style-type: circle;
+}
+
+.taxes-rate__division-item {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 35.937em) {
+  .taxes-rate__division-item {
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 61.875em) {
+  .taxes-rate__division-item {
+    margin-bottom: 2em;
+  }
+}
+
+.taxes-rate__list {
+  padding: 0;
+  padding-left: calc(10px + 1.6vw);
+  margin-top: 1em;
+}
+
+.taxes-rate__list:last-child {
+  margin-bottom: 0;
+}
+
+.taxes-rate__item {
+  padding-left: 0.5em;
+}
+
+.taxes-rate__picture {
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 845px;
+}
+
+@media (min-width: 35.937em) {
+  .taxes-rate__picture {
+    width: 80%;
+    min-height: 304px;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 61.875em) {
+  .taxes-rate__picture {
+    min-height: 400px;
+    width: 77%;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 75em) {
+  .taxes-rate__picture {
+    width: 65%;
+    min-height: 450px;
+  }
+}
+
+.taxes-rate__picture--1 {
+  background-image: url("images/tax-1.jpg");
+}
+
+.taxes-rate__picture--2 {
+  background-image: url("images/tax-2.jpg");
+}
+
+.taxes-rate__wrapper {
+  padding-inline: calc(10px + 1.6vw);
+  padding-block: 1em;
+  max-width: 845px;
+}
+
+@media (min-width: 35.937em) {
+  .taxes-rate__wrapper {
+    width: 80%;
+    margin-inline: auto;
+    padding-block: 1.5em;
+  }
+}
+
+@media (min-width: 61.875em) {
+  .taxes-rate__wrapper {
+    width: 77%;
+    padding-block: 2em;
+  }
+}
+
+@media (min-width: 75em) {
+  .taxes-rate__wrapper {
+    width: 65%;
+    padding-block: 2.5em;
+  }
+}
+
+.taxes-rate > .taxes-rate__wrapper:last-child {
+  padding-top: 0;
+  padding-bottom: 3em;
+}
+
+.taxes-rate > .taxes-rate__wrapper:first-of-type {
+  padding-top: 0;
+}
+
+.taxes-rate__container {
+  background-color: #495772;
+  color: #ffffff;
+}
+
+@media (min-width: 35.937em) {
+  .taxes-rate__container {
+    padding-block: 1em;
+  }
+}

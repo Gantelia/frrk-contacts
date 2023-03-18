@@ -1,0 +1,58 @@
+.main__header {
+  text-align: center;
+  padding: 3em calc(10px + 1.6vw);
+  max-width: 845px;
+}
+
+@media (min-width: 35.937em) {
+  .main__header {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 61.875em) {
+  .main__header {
+    width: 77%;
+  }
+}
+
+@media (min-width: 75em) {
+  .main__header {
+    width: 65%;
+  }
+}
+
+.main__header--info {
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.main__title {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-family: "Century Gothic", serif;
+}
+
+@media (min-width: 35.937em) {
+  .main__title {
+    font-size: 2.75rem;
+  }
+}
+
+@media (min-width: 47.9375em) {
+  .main__title {
+    font-size: 3rem;
+  }
+}
+
+.main__description {
+  margin: 0;
+}
+
+.main__description:not(:last-child) {
+  margin-bottom: 0.9em;
+}
