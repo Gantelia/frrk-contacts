@@ -87,7 +87,8 @@
 
 .taxes-rate__wrapper {
   padding-inline: calc(10px + 1.6vw);
-  padding-block: 1em;
+  padding-top: 1em;
+  margin-bottom: 1em;
   max-width: 845px;
 }
 
@@ -95,21 +96,24 @@
   .taxes-rate__wrapper {
     width: 80%;
     margin-inline: auto;
-    padding-block: 1.5em;
+    padding-top: 1.5em;
+    margin-bottom: 1.5em;
   }
 }
 
 @media (min-width: 61.875em) {
   .taxes-rate__wrapper {
     width: 77%;
-    padding-block: 2em;
+    padding-top: 2em;
+    margin-bottom: 2em;
   }
 }
 
 @media (min-width: 75em) {
   .taxes-rate__wrapper {
     width: 65%;
-    padding-block: 2.5em;
+    padding-top: 2.5em;
+    margin-bottom: 2.5em;
   }
 }
 

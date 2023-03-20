@@ -21,6 +21,12 @@
   }
 }
 
+@media (min-width: 75em) {
+  .header__wrapper {
+    padding-inline: calc((10px + 1.6vw) + 8%);
+  }
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -60,6 +66,12 @@
 @media (min-width: 61.875em) {
   .navigation {
     padding-inline: calc((10px + 1.6vw) + 5%);
+  }
+}
+
+@media (min-width: 75em) {
+  .navigation {
+    padding-inline: calc((10px + 1.6vw) + 8%);
   }
 }
 
