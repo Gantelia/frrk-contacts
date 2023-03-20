@@ -19,6 +19,8 @@
   background-size: cover;
   height: 100%;
   min-height: 330px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .contacts__expert {

@@ -35,6 +35,7 @@
   margin-top: 0;
   margin-bottom: 1em;
   font-family: "Century Gothic", serif;
+  word-break: break-word;
 }
 
 @media (min-width: 35.937em) {
