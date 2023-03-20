@@ -78,11 +78,11 @@
 }
 
 .taxes-rate__picture--1 {
-  background-image: url("images/tax-1.jpg");
+  background-image: url("../images/tax-1.jpg");
 }
 
 .taxes-rate__picture--2 {
-  background-image: url("images/tax-2.jpg");
+  background-image: url("../images/tax-2.jpg");
 }
 
 .taxes-rate__wrapper {
@@ -138,5 +138,10 @@
 }
 
 .disclamer {
+  border-top: 1px solid #000000;
+  padding-top: 2em;
+  margin-top: 2em;
   color: #ed171b;
+  font-weight: 700;
+  font-size: 1rem;
 }
