@@ -77,14 +77,6 @@
   }
 }
 
-.taxes-rate__picture--1 {
-  background-image: url("../images/tax-1.jpg");
-}
-
-.taxes-rate__picture--2 {
-  background-image: url("../images/tax-2.jpg");
-}
-
 .taxes-rate__wrapper {
   padding-inline: calc(10px + 1.6vw);
   padding-top: 1em;
@@ -119,7 +111,6 @@
 
 .taxes-rate > .taxes-rate__wrapper:last-child {
   padding-top: 0;
-  padding-bottom: 3em;
 }
 
 .taxes-rate > .taxes-rate__wrapper:first-of-type {
@@ -138,10 +129,25 @@
 }
 
 .disclamer {
-  border-top: 1px solid #000000;
   padding-top: 2em;
-  margin-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 4em;
+  margin-bottom: 3em;
   color: #ed171b;
   font-weight: 700;
   font-size: 1rem;
+  background-image: url("../images/warning.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.disclamer::before {
+  width: 100%;
+  content: "";
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  top: -2em;
 }
