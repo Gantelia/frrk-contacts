@@ -7,7 +7,7 @@
   grid-template-rows: repeat(auto-fill, 1fr);
 }
 
-@media (min-width: 47.9375em) {
+@media (min-width: 61.875em) {
   .contacts__container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -15,7 +15,7 @@
 
 .contacts__photo {
   background-repeat: no-repeat;
-  background-position: center 20%;
+  background-position: center;
   background-size: cover;
   height: 100%;
   min-height: 330px;
