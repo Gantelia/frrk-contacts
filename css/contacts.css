@@ -54,7 +54,7 @@
   margin-bottom: 0;
 }
 
-.contacts__name {
+.contacts__services {
   font-weight: 700;
   margin-bottom: 1em;
   font-size: 1rem;
@@ -63,4 +63,13 @@
 .contacts__link {
   color: #ffffff;
   font-style: normal;
+  text-decoration: none;
+}
+
+.contacts__link:hover {
+  color: #ed171b;
+}
+
+.contacts__link:active {
+  opacity: 0.6;
 }
