@@ -18,7 +18,9 @@
 
 ### Главная страница(мобильная версия)
 
-<img src="./images/screenshots/main-mobile.jpg" alt="Главная страница">
+<p align="center">
+    <img src="./images/screenshots/main-mobile.jpg" alt="Главная страница">
+</p>
 
 ### Страница контактов(версия для ПК)
 
